@@ -3751,7 +3751,7 @@ input:focus:-moz-placeholder {
     margin: 0 auto;
     color: #fff;
     border-radius: 6px;
-    background: linear-gradient(135deg, #F79533 0%, #F37055 100%);
+    background: linear-gradient(to left, #22292C, #ffb500);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
     border-radius: 6px
 }
@@ -3811,7 +3811,7 @@ input:focus:-moz-placeholder {
     transform: rotate(360deg)
 }
 
-.faqs>*:nth-child(4n+2) {
+/* .faqs>*:nth-child(4n+2) {
     background: linear-gradient(135deg, #F37055 0%, #EF4E7B 100%)
 }
 
@@ -3821,7 +3821,7 @@ input:focus:-moz-placeholder {
 
 .faqs>*:nth-child(4n+4) {
     background-image: linear-gradient(135deg, #07B39B 0%, #6DBA82 100%)
-}
+} */
 
 .modal-wrap {
     overflow: hidden;
