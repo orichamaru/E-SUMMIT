@@ -258,9 +258,9 @@ small {
 
 .text-gradient {
     display: inline-block;
-    background: #fffc00;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #22292C, #ffb500);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #22292C, #ffb500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #182252, #182252);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #be1754 , #182252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     background-size: cover;
     -webkit-background-clip: text;
@@ -330,9 +330,9 @@ address {
     text-align: center;
     border-radius: 4px;
     overflow: hidden;
-    background: #fffc00;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #ffffff, #ffb500);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #ffffff, #ffb500);
+    background: #be1754;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #be1754, #be1754);  /* Chrome 10-25, Safari 5.1-6 */ 
+    background: linear-gradient(to left, #be1754, #be1754);
     transform: translate3d(0, 0, 0);
     transition: all .4s ease-out
 }
@@ -341,7 +341,7 @@ background: linear-gradient(to left, #ffffff, #ffb500);
     content: "";
     width: calc(100% - 4px);
     height: calc(100% - 4px);
-    background: #22292C;
+    background: #be1754;
     position: absolute;
     top: 2px;
     left: 2px;
@@ -358,9 +358,9 @@ background: linear-gradient(to left, #ffffff, #ffb500);
     width: 100%;
     display: block;
     transition: all .4s ease-out;
-    background: #fffc00;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #ffffff 20%,  #ffb500 80%);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #ffffff 20%, #ffb500 80%);
+    background:  #be1754;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left,  #be1754 100%);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #be1754 100%);
     z-index: -3;
     opacity: 0
 }
@@ -372,9 +372,9 @@ background: linear-gradient(to left, #ffffff 20%, #ffb500 80%);
     display: block;
     width: 200%;
     height: 2px;
-    background: #fffc00;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #ffffff, #ffb500);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #ffffff, #ffb500);
+    background: #be1754;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ffffff, #be1754);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ffffff, #be1754);
     
     z-index: -1;
     transition: all 0.8s ease-out
@@ -385,7 +385,7 @@ background: linear-gradient(to left, #ffffff, #ffb500);
 .btn:hover {
     cursor: pointer;
     transform: translate3d(0, -3px, 0);
-    box-shadow: 0px 8px 18px -3px #ffb500
+    box-shadow: 0px 8px 18px -3px #182252
 }
 
 .btn:active span,
@@ -465,7 +465,7 @@ textarea {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-smoothing: antialiased;
-    color: #22292C
+    color: #182252;
 }
 
 @media (max-width: 599px) {
@@ -602,7 +602,7 @@ body {
 body:before {
     content: '';
     width: 100%;
-    background: #1A1F21;
+    background: #fff;
     height: 70px;
     position: absolute;
     top: 0;
@@ -616,7 +616,7 @@ body:before {
     z-index: 10;
     top: 0;
     left: 0;
-    background: #1A1F21
+    background: #182252
 }
 
 .site-header .container-wide {
@@ -762,9 +762,9 @@ body:before {
     left: 0;
     z-index: 1;
     opacity: 1;
-    background: #fffc00;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #ffffff, #ffb500);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #ffffff, #ffb500);
+    background: #be1754;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000000, #be1754);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000000, #be1754);
     transform-origin: center;
     transform: scaleX(0);
     transition: transform .4s ease-out
@@ -1027,7 +1027,7 @@ background: linear-gradient(to left, #ffffff, #ffb500);
     position: relative;
     display: flex;
     align-items: center;
-    background: #22292C;
+    background: #fff;
     overflow: hidden;
     z-index: 2;
     padding: 60px 0 150px
@@ -1050,7 +1050,7 @@ background: linear-gradient(to left, #ffffff, #ffb500);
 
 .universe-intro .universe-intro__content {
     display: inline-block;
-    background: #22292C;
+    background: #fff;
     border-radius: 40px;
     position: relative;
     z-index: 1
@@ -1118,7 +1118,7 @@ background: linear-gradient(to left, #ffffff, #ffb500);
 }
 
 .universe {
-    background: #22292C;
+    background: #fff;
     overflow: hidden;
     position: relative;
     z-index: 2
@@ -1127,9 +1127,9 @@ background: linear-gradient(to left, #ffffff, #ffb500);
 .gradient {
     overflow: hidden;
     position: relative;
-    background: #fffc00;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #22292C, #ffb500);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #22292C, #ffb500);
+    background: #fff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left,#be1754, #182252 );  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left,#be1754, #182252);
     z-index: 0
 }
 
@@ -1154,20 +1154,20 @@ background: linear-gradient(to left, #22292C, #ffb500);
 .bg-purple.is-active,
 
 .tabs-bg>*.is-active {
-    opacity: 1
+    opacity: 0.5
 }
 
 .bg-orange {
-    background: #fffc00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, rgb(65, 62, 62), #ffb500);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, rgb(65, 62, 62), #ffb500);
+    background: #fff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #182252, #182252);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,#182252, #182252);
     
 }
 
 .bg-purple {
-    background: #fffc00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgb(65, 62, 62), #ffb500);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgb(65, 62, 62), #ffb500);
+    background: #fff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #be1754, #be1754);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#be1754, #be1754);
     
 }
 
@@ -1319,7 +1319,7 @@ background: linear-gradient(to left, #22292C, #ffb500);
 }
 
 .page-content-block .shapes .shape-1 {
-    fill: #A166AB;
+    fill: #;
     bottom: 0;
     left: 0;
     transition-delay: 0.6s
@@ -1507,7 +1507,7 @@ background: linear-gradient(to left, #22292C, #ffb500);
 @media (min-width: 600px) {
     .universe-schedule {
         padding: 30px;
-        background: #1A1F21
+        background: #1A1F21;
     }
 }
 
@@ -2035,7 +2035,7 @@ background: linear-gradient(to left, #22292C, #ffb500);
 
 .speaker-preview .speaker-preview__image img,
 .speaker-image img {
-    filter: grayscale(50%)
+   
 }
 
 .speaker-preview .speaker-preview__image:after,
@@ -2046,11 +2046,11 @@ background: linear-gradient(to left, #22292C, #ffb500);
     height: 100%;
     top: 0;
     left: -1%;
-    background: linear-gradient(-135deg, #F37055 0%, #EF4E7B 52%, #A166AB 100%);
+    background:linear-gradient(-135deg, #F37055 0%, #EF4E7B 52%, #A166AB 100%);
     z-index: 1;
     position: absolute;
     mix-blend-mode: multiply;
-    opacity: 0.7
+    opacity: 0
 }
 
 .isSafari .speaker-preview .speaker-preview__image,
@@ -2343,7 +2343,7 @@ background: linear-gradient(to left, #22292C, #ffb500);
 .events {
     position: relative;
     color: #fff;
-    background: linear-gradient(to left, #22292C, #ffb500);
+    background: linear-gradient(to left, #182252,#be1754);
 
 }
 
@@ -2476,23 +2476,23 @@ background: linear-gradient(to left, #22292C, #ffb500);
     left: -480px;
     top: -85px;
     border-radius: 50%;
-    background: linear-gradient(-135deg, #22292C, #ffb500);
+    background: linear-gradient(-135deg, #22292C,#182252);
     opacity: 0.8;
     background-blend-mode: multiply
 }
 
 .events-section__bd {
     position: relative;
-    background: linear-gradient(-135deg, #22292C, #ffb500) 
+    background: linear-gradient(-135deg, #22292C, #182252) 
 }
 
 .events-section--pink .events-section-header {
-    background: linear-gradient(-135deg, #22292C, #ffb500 ), url("../img/universe/hack.png") center/cover no-repeat;
+    background: linear-gradient(-135deg, #22292C, #182252 ), url("../img/universe/hack.png") center/cover no-repeat;
     background-blend-mode: multiply
 }
 
 .events-section--pink .events-section-header:after {
-    background: linear-gradient(-135deg, #22292C, #ffb500) 
+    background: linear-gradient(-135deg, #22292C, #182252) 
 }
 
 .events-section--pink .shapes.shapes--right {
@@ -2502,12 +2502,12 @@ background: linear-gradient(to left, #22292C, #ffb500);
 }
 
 .events-section--purple .events-section-header {
-    background: linear-gradient(-135deg, #22292C, #ffb500) , url("../img/universe/workshop.jpg") center/cover no-repeat;
+    background: linear-gradient(-135deg, #22292C, #182252) , url("../img/universe/workshop.jpg") center/cover no-repeat;
     background-blend-mode: multiply
 }
 
 .events-section--purple .events-section-header:after {
-    background: linear-gradient(-135deg, #22292C, #ffb500) 
+    background: linear-gradient(-135deg, #22292C, #182252) 
 }
 
 .events-section--purple .shapes.shapes--right {
@@ -2517,16 +2517,16 @@ background: linear-gradient(to left, #22292C, #ffb500);
 }
 
 .events-section--purple .events-section__bd {
-    background: linear-gradient(-135deg, #22292C, #ffb500) 
+    background: linear-gradient(-135deg, #22292C, #182252) 
 }
 
 .events-section--blue .events-section-header {
-    background: linear-gradient(-135deg, #22292C, #ffb500) , url("../img/universe/quiz-show.jpg") center/cover no-repeat;
+    background: linear-gradient(-135deg, #22292C, #182252) , url("../img/universe/quiz-show.jpg") center/cover no-repeat;
     background-blend-mode: multiply
 }
 
 .events-section--blue .events-section-header:after {
-    background: linear-gradient(-135deg, #22292C, #ffb500)
+    background: linear-gradient(-135deg, #22292C, #182252)
 }
 
 .events-section--blue .shapes.shapes--right {
@@ -2535,12 +2535,12 @@ background: linear-gradient(to left, #22292C, #ffb500);
     z-index: 2
 }
 .events-section--green .events-section-header {
-    background: linear-gradient(-135deg, #22292C, #ffb500) , url("../img/universe/sif.jpg") center/cover no-repeat;
+    background: linear-gradient(-135deg, #182252, #182252) , url("../img/universe/sif.jpg") center/cover no-repeat;
     background-blend-mode: multiply
 }
 
 .events-section--green .events-section-header:after {
-    background: linear-gradient(-135deg, #22292C, #ffb500)
+    background: linear-gradient(-135deg, #22292C, #182252)
 }
 
 .events-section--green .shapes.shapes--right {
@@ -2549,15 +2549,15 @@ background: linear-gradient(to left, #22292C, #ffb500);
     z-index: 2
 }
 .events-section--green .events-section__bd {
-    background: linear-gradient(-135deg, #22292C, #ffb500)
+    background: linear-gradient(-135deg, #22292C, #182252)
 }
 .events-section--white .events-section-header {
-    background: linear-gradient(-135deg, #22292C, #ffb500) , url("../img/universe/talkshow.jpg") center/cover no-repeat;
+    background: linear-gradient(-135deg, #22292C, #182252) , url("../img/universe/talkshow.jpg") center/cover no-repeat;
     background-blend-mode: multiply
 }
 
 .events-section--white .events-section-header:after {
-    background: linear-gradient(-135deg, #22292C, #ffb500)
+    background: linear-gradient(-135deg, #22292C, #182252)
 }
 
 .events-section--white .shapes.shapes--right {
@@ -2566,7 +2566,7 @@ background: linear-gradient(to left, #22292C, #ffb500);
     z-index: 2
 }
 .events-section--white .events-section__bd {
-    background: linear-gradient(-135deg, #22292C, #ffb500)
+    background: linear-gradient(-135deg, #22292C, #182252)
 }
 .page-body--viewing-parties {
     position: relative
@@ -2599,12 +2599,12 @@ background: linear-gradient(to left, #22292C, #ffb500);
     margin: 0 auto 20px
 }
 .events-section--red .events-section-header {
-    background: linear-gradient(-135deg, #22292C, #ffb500) , url("../img/universe/bplan.jpg") center/cover no-repeat;
+    background: linear-gradient(-135deg, #22292C, #182252) , url("../img/universe/bplan.jpg") center/cover no-repeat;
     background-blend-mode: multiply
 }
 
 .events-section--red .events-section-header:after {
-    background: linear-gradient(-135deg, #22292C, #ffb500)
+    background: linear-gradient(-135deg, #22292C, #182252)
 }
 
 .events-section--red .shapes.shapes--right {
@@ -2614,7 +2614,7 @@ background: linear-gradient(to left, #22292C, #ffb500);
 }
 
 .events-section--blue .events-section__bd {
-    background: linear-gradient(-135deg, #22292C, #ffb500)
+    background: linear-gradient(-135deg, #22292C, #182252)
 }
 
 .viewing-party {
@@ -3451,7 +3451,7 @@ input:focus:-moz-placeholder {
 }
 
 .site-footer-legal {
-    background: rgba(0, 0, 0, 0.3)
+    background: rgba(0, 0, 0, 1)
 }
 
 .site-footer-legal .container-wide {
@@ -3802,7 +3802,7 @@ input:focus:-moz-placeholder {
     margin: 0 auto;
     color: #fff;
     border-radius: 6px;
-    background: linear-gradient(to left, #22292C, #ffb500);
+    background: linear-gradient(to left, #182252, #be1754);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
     border-radius: 6px
 }
