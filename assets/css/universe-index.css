@@ -900,9 +900,9 @@ background: linear-gradient(to left, #000000, #be1754);
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fffc00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #22292C, #ffb500);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #22292C, #ffb500);
+    background: #fff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #be1754, #182252);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #be1754, #182252);
     box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.3);
     position: fixed;
