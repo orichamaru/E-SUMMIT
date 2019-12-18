@@ -1124,8 +1124,17 @@ background: linear-gradient(to left, #000000, #be1754);
     z-index: 2
 }
 
+
 .gradient {
     overflow: hidden;
+    position: relative;
+    background: #fff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left,#be1754, #182252 );  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left,#be1754, #182252);
+    z-index: 0
+}
+
+.gradient1 {
     position: relative;
     background: #fff;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left,#be1754, #182252 );  /* Chrome 10-25, Safari 5.1-6 */
